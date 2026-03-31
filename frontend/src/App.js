@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/signals';
+
+const API_URL ='https://trading-backend-l44l.onrender.com/api/signals';
 
 function App() {
   const [signals, setSignals] = useState([]);
